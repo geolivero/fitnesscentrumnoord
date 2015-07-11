@@ -1,0 +1,79 @@
+header {
+  position: absolute; top: 0; width: 100%;
+  height: 105px; background: $color__c;
+
+  * {
+    color: $color__a;
+  }
+
+  nav {
+    position: fixed; background: rgba($color__c, 0.8);
+    width: 100%; height: 100%; bottom: 0;
+    top: 0; z-index: 30; text-align: center;
+    display: none;
+  }
+
+  nav ul {
+    position: absolute; top: 50%; left: 0;
+    @include transform(translateY(-50%));
+    width: 100%; text-align: center;
+  }
+
+  nav a {
+    padding: 20px 0;
+    display: block; font-size: 200%;
+    text-decoration: none;
+    @include transition(background 0.3s, color 0.3s);
+    @include sans-c;
+    text-transform: uppercase;
+    &:hover {
+      background: rgba($color__a, 0.4);
+      color: $color__c;
+    }
+  }
+
+  .logo {
+    @include sans-c; font-size: 300%;
+    text-transform: uppercase; font-size: 40px;
+    left: 20px; display: block;
+    position: relative; top: 50%; @include transform(translateY(-50%));
+    text-decoration: none;
+    * {
+      @include sans-c;  
+    }
+    strong {
+      @include sans-cb;
+    }
+  }
+
+  .menu__btn {
+    position: absolute; top: 50%; right: 20px;
+    padding: 5px 15px; overflow: hidden; @include border-radius(10px);
+    @include transform(translateY(-50%));
+    @include sans-c; z-index: 31;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-decoration: none;
+    @include transition(background 0.3s, color 0.3s);
+    &:hover {
+      background: rgba($color__a, 0.3);
+      color: $color__a;
+    }
+
+    span.hamb_icon {
+      width: 30px;
+      margin-left: 5px;
+      display: inline-block;
+      position: relative; top: 6px;
+      span {
+        height: 3px; background: $color__a;
+        margin-bottom: 5px; display: block;
+      }
+    }
+  }
+}
+
+.container {
+  padding-top: 105px; max-width: 1200px;
+  min-height: 100%;
+}

@@ -1,0 +1,29 @@
+.homepage__panel {
+  position: absolute; top: 105px;
+  left: 0; bottom: 0; height: 100%;
+  right: 0; min-height: 700px;
+
+  .rows {
+    height: 100%;
+  }
+  .colls {
+    height: 100%;
+  }
+  .coll {
+    height: 100%;
+  }
+  .coll.left {
+    width: 60%;
+
+    .colls {
+      height: 40%;
+    }
+  }
+  .coll.right {
+    width: 40%;
+  }
+
+  .etalage {
+    height: 60%;
+  }
+}

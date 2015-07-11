@@ -1,0 +1,40 @@
+/* line 1, ../sass/home.scss */
+.homepage__panel {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  right: 0;
+  min-height: 700px;
+}
+/* line 6, ../sass/home.scss */
+.homepage__panel .rows {
+  height: 100%;
+}
+/* line 9, ../sass/home.scss */
+.homepage__panel .colls {
+  height: 100%;
+}
+/* line 12, ../sass/home.scss */
+.homepage__panel .coll {
+  height: 100%;
+}
+/* line 15, ../sass/home.scss */
+.homepage__panel .coll.left {
+  width: 60%;
+}
+/* line 18, ../sass/home.scss */
+.homepage__panel .coll.left .colls {
+  height: 40%;
+}
+/* line 22, ../sass/home.scss */
+.homepage__panel .coll.right {
+  width: 40%;
+}
+/* line 26, ../sass/home.scss */
+.homepage__panel .etalage {
+  height: 60%;
+}
+
+/*# sourceMappingURL=home.css.map */

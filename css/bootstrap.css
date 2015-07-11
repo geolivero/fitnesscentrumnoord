@@ -64,13 +64,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/incl/defaults.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/incl/defaults.scss */
 body, html {
   height: 100%;
 }
 
-/* line 5, ../sass/incl/defaults.scss */
+/* line 8, ../sass/incl/defaults.scss */
 body * {
   font-family: 'Open Sans', sans-serif;
+}
+
+/* line 12, ../sass/incl/defaults.scss */
+a {
+  color: #5BA4DC;
+}
+/* line 14, ../sass/incl/defaults.scss */
+a:hover {
+  color: #79c2fa;
+}
+
+/* line 19, ../sass/incl/defaults.scss */
+.colls {
+  overflow: hidden;
+}
+
+/* line 22, ../sass/incl/defaults.scss */
+.coll {
+  float: left;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

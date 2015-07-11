@@ -68,13 +68,213 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 1, ../sass/incl/defaults.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/incl/defaults.scss */
 body, html {
   height: 100%;
 }
 
-/* line 5, ../sass/incl/defaults.scss */
+/* line 8, ../sass/incl/defaults.scss */
 body * {
   font-family: 'Open Sans', sans-serif;
+}
+
+/* line 12, ../sass/incl/defaults.scss */
+a {
+  color: #5BA4DC;
+}
+/* line 14, ../sass/incl/defaults.scss */
+a:hover {
+  color: #79c2fa;
+}
+
+/* line 19, ../sass/incl/defaults.scss */
+.colls {
+  overflow: hidden;
+}
+
+/* line 22, ../sass/incl/defaults.scss */
+.coll {
+  float: left;
+}
+
+/* line 1, ../sass/layout.scss */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 105px;
+  background: #172E48;
+}
+/* line 5, ../sass/layout.scss */
+header * {
+  color: #FFF;
+}
+/* line 9, ../sass/layout.scss */
+header nav {
+  position: fixed;
+  background: rgba(23, 46, 72, 0.8);
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+  z-index: 30;
+  text-align: center;
+  display: none;
+}
+/* line 16, ../sass/layout.scss */
+header nav ul {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+/* line 22, ../sass/layout.scss */
+header nav a {
+  padding: 20px 0;
+  display: block;
+  font-size: 200%;
+  text-decoration: none;
+  -moz-transition: background 0.3s, color 0.3s;
+  -o-transition: background 0.3s, color 0.3s;
+  -webkit-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* line 29, ../sass/layout.scss */
+header nav a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: #172E48;
+}
+/* line 35, ../sass/layout.scss */
+header .logo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 300%;
+  text-transform: uppercase;
+  font-size: 40px;
+  left: 20px;
+  display: block;
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+/* line 41, ../sass/layout.scss */
+header .logo * {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+}
+/* line 44, ../sass/layout.scss */
+header .logo strong {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+}
+/* line 49, ../sass/layout.scss */
+header .menu__btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  padding: 5px 15px;
+  overflow: hidden;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  z-index: 31;
+  font-size: 150%;
+  text-transform: uppercase;
+  text-decoration: none;
+  -moz-transition: background 0.3s, color 0.3s;
+  -o-transition: background 0.3s, color 0.3s;
+  -webkit-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+}
+/* line 58, ../sass/layout.scss */
+header .menu__btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #FFF;
+}
+/* line 63, ../sass/layout.scss */
+header .menu__btn span.hamb_icon {
+  width: 30px;
+  margin-left: 5px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+}
+/* line 68, ../sass/layout.scss */
+header .menu__btn span.hamb_icon span {
+  height: 3px;
+  background: #FFF;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* line 76, ../sass/layout.scss */
+.container {
+  padding-top: 105px;
+  max-width: 1200px;
+  min-height: 100%;
+}
+
+/* line 1, ../sass/home.scss */
+.homepage__panel {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  right: 0;
+  min-height: 700px;
+}
+/* line 6, ../sass/home.scss */
+.homepage__panel .rows {
+  height: 100%;
+}
+/* line 9, ../sass/home.scss */
+.homepage__panel .colls {
+  height: 100%;
+}
+/* line 12, ../sass/home.scss */
+.homepage__panel .coll {
+  height: 100%;
+}
+/* line 15, ../sass/home.scss */
+.homepage__panel .coll.left {
+  width: 60%;
+}
+/* line 18, ../sass/home.scss */
+.homepage__panel .coll.left .colls {
+  height: 40%;
+}
+/* line 22, ../sass/home.scss */
+.homepage__panel .coll.right {
+  width: 40%;
+}
+/* line 26, ../sass/home.scss */
+.homepage__panel .etalage {
+  height: 60%;
 }
 
 /*# sourceMappingURL=screen.css.map */

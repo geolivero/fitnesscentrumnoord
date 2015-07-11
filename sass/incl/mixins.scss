@@ -31,3 +31,7 @@
   @include sansc;
   font-weight: 300;
 }
+@mixin sans-cb {
+  @include sansc;
+  font-weight: 700;
+}

@@ -1,36 +1,24 @@
 /*
-Error: Undefined mixin 'sans'.
-        on line 6 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss, in `sans'
-        from line 6 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss
+Error: Undefined mixin 'box-sizing'.
+        on line 2 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss, in `box-sizing'
+        from line 2 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss
 
-1: body, html {
-2:   height: 100%;
+1: * {
+2:   @include box-sizing(border-box);
 3: }
-4: body {
-5:   * {
-6:     @include sans;
-7:   }
-8: }
+4: body, html {
+5:   height: 100%;
+6: }
+7: body {
 
 Backtrace:
-/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss:6:in `sans'
-/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss:6
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss:2:in `box-sizing'
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss:2
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `with_mixin'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
@@ -81,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'sans'.\A         on line 6 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss, in `sans'\A         from line 6 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss\A \A 1: body, html {\A 2:   height: 100%;\A 3: }\A 4: body {\A 5:   * {\A 6:     @include sans;\A 7:   }\A 8: }"; }
+  content: "Error: Undefined mixin 'box-sizing'.\A         on line 2 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss, in `box-sizing'\A         from line 2 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/incl/defaults.scss\A \A 1: * {\A 2:   @include box-sizing(border-box);\A 3: }\A 4: body, html {\A 5:   height: 100%;\A 6: }\A 7: body {"; }
