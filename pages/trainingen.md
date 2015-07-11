@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Trainingen
+title: Training
 permalink: /trainingen/
 postcategorie: training
 ---
