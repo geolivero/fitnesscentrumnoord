@@ -1,14 +1,20 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Fitnesscentrumnoord
+email: info@fitnesscentrumnoord.nl
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We beperken ons tot de essentie van het trainen met resultaat, door simpelweg aan de slag te gaan. 
+  Verantwoord bewegen moet je nog altijd zelf doen geen machine, hoe imposant dan ook, kan dat voor jou doen. 
+  Uiteraard kunnen wij je daarbij deskundig ondersteunen.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://fitnesscentrumnoord.nl" # the base hostname & protocol for your site
+baseheaderimg: /images/defaultheader.png
 
 # Build settings
 markdown: kramdown
+
+menus:
+    main:
+    - Home: /
+    - Trainingen: /trainingen/
+    - About: /about/
+    - Contact: /contact/

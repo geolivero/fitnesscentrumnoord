@@ -2,22 +2,45 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="homepage__panel">
+  <div class="rows">
+    <div class="colls">
+      <div class="coll left">
+        <div class="etalage">
+          <h1>Sportgerichte fysieke training</h1>
+          <h2>"De visie van Hans Kroon"</h2>
+          <p>Wij werken met een stappenplan om je gewenste doelen te verwezenlijken.</p>
+          <a class="btn" href="/contact/">Afsrpaak maken</a>
+        </div>
+        <div class="colls">
+          <div class="coll">
+            <h2>Kom langs voor een consult</h2>
+            <p>
+              Nobelstraat 94<br/>
+              Rotterdam, Netherlands<br/>
+              010 466 5576
+            </p>
+            <p>
+              open ma. t/m vrij. van 9:00 tot 21:00<br/>
+              za. en zo. van 10:00 tot 13:00
+            </p>
+          </div>
+          <div class="coll" id="map">  
+          </div>
+        </div>
+      </div>
+      <div class="coll right">
+        <div class="highlight__1">
+          <h2>Fysiek mentaal topgit</h2>
+          <p>Training/voeding/herstel/rust en goed mindset</p>
+          <a href="/training/" class="btn">We helpen u graag</a>
+        </div>
+        <div class="highlight__2">
+          <h2>Een korte impressie</h2>
+          <p>Wij werken met een stappenplan om je gewenste te verwezenlijken.</p>
+          <a href="/training/" class="btn play"><span>plan</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
