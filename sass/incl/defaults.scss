@@ -1,0 +1,24 @@
+* {
+  @include box-sizing(border-box);
+}
+body, html {
+  height: 100%;
+}
+body {
+  * {
+    @include sans;
+  }
+}
+a {
+  color: $color__f;
+  &:hover {
+    color: $color__f + 30;
+  }
+}
+
+.colls {
+  overflow: hidden;
+}
+.coll {
+  float: left;
+}

@@ -273,6 +273,10 @@ header .menu__btn span.hamb_icon span {
   width: 40%;
 }
 /* line 26, ../sass/home.scss */
+.homepage__panel .highlight__1, .homepage__panel .highlight__2 {
+  height: 50%;
+}
+/* line 30, ../sass/home.scss */
 .homepage__panel .etalage {
   height: 60%;
 }
