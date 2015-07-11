@@ -3,7 +3,7 @@ Error: Undefined variable: "$color__c".
         on line 3 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss
 
 1: header {
-2:   position: absolute; top: 0; width: 100%;
+2:   position: fixed; top: 0; width: 100%;
 3:   height: 105px; background: $color__c;
 4: 
 5:   * {
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color__c\".\A         on line 3 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss\A \A 1: header {\A 2:   position: absolute; top: 0; width: 100%;\A 3:   height: 105px; background: $color__c;\A 4: \A 5:   * {\A 6:     color: $color__a;\A 7:   }\A 8:   "; }
+  content: "Error: Undefined variable: \"$color__c\".\A         on line 3 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss\A \A 1: header {\A 2:   position: fixed; top: 0; width: 100%;\A 3:   height: 105px; background: $color__c;\A 4: \A 5:   * {\A 6:     color: $color__a;\A 7:   }\A 8:   "; }

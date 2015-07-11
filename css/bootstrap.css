@@ -75,55 +75,59 @@ body, html {
   height: 100%;
 }
 
+/* line 7, ../sass/incl/defaults.scss */
+body {
+  background: #5BA6DA;
+}
 /* line 8, ../sass/incl/defaults.scss */
 body * {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 12, ../sass/incl/defaults.scss */
+/* line 13, ../sass/incl/defaults.scss */
 a {
   color: #5BA4DC;
 }
-/* line 14, ../sass/incl/defaults.scss */
+/* line 15, ../sass/incl/defaults.scss */
 a:hover {
   color: #79c2fa;
 }
 
-/* line 18, ../sass/incl/defaults.scss */
+/* line 19, ../sass/incl/defaults.scss */
 h1, h2, h3, h4, h5 {
   padding-bottom: 20px;
 }
 
-/* line 22, ../sass/incl/defaults.scss */
+/* line 23, ../sass/incl/defaults.scss */
 .colls {
   overflow: hidden;
 }
 
-/* line 25, ../sass/incl/defaults.scss */
+/* line 26, ../sass/incl/defaults.scss */
 .coll {
   float: left;
 }
 @media all and (max-width: 700px) {
-  /* line 25, ../sass/incl/defaults.scss */
+  /* line 26, ../sass/incl/defaults.scss */
   .coll {
     float: none;
   }
 }
 
-/* line 31, ../sass/incl/defaults.scss */
+/* line 32, ../sass/incl/defaults.scss */
 p {
   line-height: 1.5em;
   padding-bottom: 15px;
 }
 
-/* line 35, ../sass/incl/defaults.scss */
+/* line 36, ../sass/incl/defaults.scss */
 .center {
   margin: 0 auto;
   position: relative;
   max-width: 1400px;
 }
 
-/* line 41, ../sass/incl/defaults.scss */
+/* line 42, ../sass/incl/defaults.scss */
 .btn {
   display: inline-block;
   border: solid 1px #FFF;
@@ -142,16 +146,16 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 51, ../sass/incl/defaults.scss */
+/* line 52, ../sass/incl/defaults.scss */
 .btn.light {
   background: #5BA4DC;
 }
-/* line 55, ../sass/incl/defaults.scss */
+/* line 56, ../sass/incl/defaults.scss */
 .btn:hover {
   background: #354c66;
   color: #FFF;
 }
-/* line 60, ../sass/incl/defaults.scss */
+/* line 61, ../sass/incl/defaults.scss */
 .btn.play {
   width: 135px;
   height: 135px;
@@ -161,7 +165,7 @@ p {
   background: none;
   padding: 10px;
 }
-/* line 64, ../sass/incl/defaults.scss */
+/* line 65, ../sass/incl/defaults.scss */
 .btn.play span {
   width: 100%;
   height: 100%;
@@ -179,7 +183,7 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 71, ../sass/incl/defaults.scss */
+/* line 72, ../sass/incl/defaults.scss */
 .btn.play span:before {
   content: '';
   display: inline-block;
@@ -196,7 +200,7 @@ p {
   border-top: solid 20px transparent;
   border-bottom: solid 20px transparent;
 }
-/* line 84, ../sass/incl/defaults.scss */
+/* line 85, ../sass/incl/defaults.scss */
 .btn.play:hover span {
   background: rgba(255, 255, 255, 0.6);
 }

@@ -79,55 +79,59 @@ body, html {
   height: 100%;
 }
 
+/* line 7, ../sass/incl/defaults.scss */
+body {
+  background: #5BA6DA;
+}
 /* line 8, ../sass/incl/defaults.scss */
 body * {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 12, ../sass/incl/defaults.scss */
+/* line 13, ../sass/incl/defaults.scss */
 a {
   color: #5BA4DC;
 }
-/* line 14, ../sass/incl/defaults.scss */
+/* line 15, ../sass/incl/defaults.scss */
 a:hover {
   color: #79c2fa;
 }
 
-/* line 18, ../sass/incl/defaults.scss */
+/* line 19, ../sass/incl/defaults.scss */
 h1, h2, h3, h4, h5 {
   padding-bottom: 20px;
 }
 
-/* line 22, ../sass/incl/defaults.scss */
+/* line 23, ../sass/incl/defaults.scss */
 .colls {
   overflow: hidden;
 }
 
-/* line 25, ../sass/incl/defaults.scss */
+/* line 26, ../sass/incl/defaults.scss */
 .coll {
   float: left;
 }
 @media all and (max-width: 700px) {
-  /* line 25, ../sass/incl/defaults.scss */
+  /* line 26, ../sass/incl/defaults.scss */
   .coll {
     float: none;
   }
 }
 
-/* line 31, ../sass/incl/defaults.scss */
+/* line 32, ../sass/incl/defaults.scss */
 p {
   line-height: 1.5em;
   padding-bottom: 15px;
 }
 
-/* line 35, ../sass/incl/defaults.scss */
+/* line 36, ../sass/incl/defaults.scss */
 .center {
   margin: 0 auto;
   position: relative;
   max-width: 1400px;
 }
 
-/* line 41, ../sass/incl/defaults.scss */
+/* line 42, ../sass/incl/defaults.scss */
 .btn {
   display: inline-block;
   border: solid 1px #FFF;
@@ -146,16 +150,16 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 51, ../sass/incl/defaults.scss */
+/* line 52, ../sass/incl/defaults.scss */
 .btn.light {
   background: #5BA4DC;
 }
-/* line 55, ../sass/incl/defaults.scss */
+/* line 56, ../sass/incl/defaults.scss */
 .btn:hover {
   background: #354c66;
   color: #FFF;
 }
-/* line 60, ../sass/incl/defaults.scss */
+/* line 61, ../sass/incl/defaults.scss */
 .btn.play {
   width: 135px;
   height: 135px;
@@ -165,7 +169,7 @@ p {
   background: none;
   padding: 10px;
 }
-/* line 64, ../sass/incl/defaults.scss */
+/* line 65, ../sass/incl/defaults.scss */
 .btn.play span {
   width: 100%;
   height: 100%;
@@ -183,7 +187,7 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 71, ../sass/incl/defaults.scss */
+/* line 72, ../sass/incl/defaults.scss */
 .btn.play span:before {
   content: '';
   display: inline-block;
@@ -200,14 +204,14 @@ p {
   border-top: solid 20px transparent;
   border-bottom: solid 20px transparent;
 }
-/* line 84, ../sass/incl/defaults.scss */
+/* line 85, ../sass/incl/defaults.scss */
 .btn.play:hover span {
   background: rgba(255, 255, 255, 0.6);
 }
 
 /* line 1, ../sass/layout.scss */
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 105px;
@@ -220,11 +224,14 @@ header * {
 /* line 9, ../sass/layout.scss */
 header .center {
   height: 105px;
+  -moz-box-shadow: 0 0 30px rgba(0, 6, 32, 0.5);
+  -webkit-box-shadow: 0 0 30px rgba(0, 6, 32, 0.5);
+  box-shadow: 0 0 30px rgba(0, 6, 32, 0.5);
 }
-/* line 13, ../sass/layout.scss */
+/* line 14, ../sass/layout.scss */
 header nav {
   position: fixed;
-  background: rgba(23, 46, 72, 0.8);
+  background: rgba(23, 46, 72, 0.9);
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -233,7 +240,11 @@ header nav {
   text-align: center;
   display: none;
 }
-/* line 20, ../sass/layout.scss */
+/* line 22, ../sass/layout.scss */
+header.show nav {
+  display: block;
+}
+/* line 26, ../sass/layout.scss */
 header nav ul {
   position: absolute;
   top: 50%;
@@ -245,26 +256,26 @@ header nav ul {
   width: 100%;
   text-align: center;
 }
-/* line 26, ../sass/layout.scss */
+/* line 32, ../sass/layout.scss */
 header nav a {
-  padding: 20px 0;
+  padding: 15px 0;
   display: block;
-  font-size: 200%;
+  font-size: 240%;
   text-decoration: none;
   -moz-transition: background 0.3s, color 0.3s;
   -o-transition: background 0.3s, color 0.3s;
   -webkit-transition: background 0.3s, color 0.3s;
   transition: background 0.3s, color 0.3s;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
-/* line 33, ../sass/layout.scss */
+/* line 39, ../sass/layout.scss */
 header nav a:hover {
   background: rgba(255, 255, 255, 0.4);
   color: #172E48;
 }
-/* line 39, ../sass/layout.scss */
+/* line 45, ../sass/layout.scss */
 header .logo {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
@@ -281,18 +292,18 @@ header .logo {
   transform: translateY(-50%);
   text-decoration: none;
 }
-/* line 45, ../sass/layout.scss */
+/* line 51, ../sass/layout.scss */
 header .logo * {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
 }
-/* line 48, ../sass/layout.scss */
+/* line 54, ../sass/layout.scss */
 header .logo strong {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
 @media all and (max-width: 600px) {
-  /* line 39, ../sass/layout.scss */
+  /* line 45, ../sass/layout.scss */
   header .logo {
     font-size: 140%;
     top: 20px;
@@ -302,7 +313,7 @@ header .logo strong {
     transform: translateY(0);
   }
 }
-/* line 60, ../sass/layout.scss */
+/* line 66, ../sass/layout.scss */
 header .menu__btn {
   position: absolute;
   top: 50%;
@@ -327,13 +338,13 @@ header .menu__btn {
   -webkit-transition: background 0.3s, color 0.3s;
   transition: background 0.3s, color 0.3s;
 }
-/* line 69, ../sass/layout.scss */
+/* line 75, ../sass/layout.scss */
 header .menu__btn:hover {
   background: rgba(255, 255, 255, 0.3);
   color: #FFF;
 }
 @media all and (max-width: 600px) {
-  /* line 60, ../sass/layout.scss */
+  /* line 66, ../sass/layout.scss */
   header .menu__btn {
     top: auto;
     -moz-transform: translateY(0);
@@ -343,7 +354,7 @@ header .menu__btn:hover {
     bottom: 10px;
   }
 }
-/* line 79, ../sass/layout.scss */
+/* line 85, ../sass/layout.scss */
 header .menu__btn span.hamb_icon {
   width: 30px;
   margin-left: 5px;
@@ -351,20 +362,48 @@ header .menu__btn span.hamb_icon {
   position: relative;
   top: 6px;
 }
-/* line 84, ../sass/layout.scss */
+/* line 90, ../sass/layout.scss */
 header .menu__btn span.hamb_icon span {
   height: 3px;
   background: #FFF;
   margin-bottom: 5px;
   display: block;
 }
+/* line 98, ../sass/layout.scss */
+header.show .menu__btn span.hamb_icon {
+  top: -3px;
+}
+/* line 100, ../sass/layout.scss */
+header.show .menu__btn span.hamb_icon span.st_2 {
+  display: none;
+}
+/* line 104, ../sass/layout.scss */
+header.show .menu__btn span.hamb_icon span.st_1 {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  top: 7px;
+}
+/* line 108, ../sass/layout.scss */
+header.show .menu__btn span.hamb_icon span.st_3 {
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
-/* line 92, ../sass/layout.scss */
+/* line 115, ../sass/layout.scss */
 .container {
   padding-top: 105px;
   max-width: 1400px;
   min-height: 100%;
   margin: 0 auto;
+  background: #FFF;
+  -moz-box-shadow: 0 0 30px rgba(23, 46, 72, 0.5);
+  -webkit-box-shadow: 0 0 30px rgba(23, 46, 72, 0.5);
+  box-shadow: 0 0 30px rgba(23, 46, 72, 0.5);
 }
 
 /* line 1, ../sass/home.scss */
