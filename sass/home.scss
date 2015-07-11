@@ -5,6 +5,10 @@
   width: 100%;
   @include transform(translateX(-50%));
 
+  @media all and(max-width: $mobile_width) {
+    min-height: 0; height: auto; bottom: auto;
+  }
+
 
   .rows {
     height: 100%;
@@ -49,12 +53,26 @@
   .etalage {
     height: 60%;
   }
+
+  @media all and(max-width: $mobile_width) {
+    .rows, .colls, .coll, .coll.right, .coll.left, .coll.left .coll {
+      height: auto; width: 100%; 
+    }
+  }
 }
 
 .coll.right .highlight__1, .coll.right .highlight__2 {
   .center {
     position: relative; top: 50%;
     @include transform(translateY(-50%));
+
+    @media all and (max-width: $mobile_width) {
+    font-size: 70%; @include transform(translateY(0));
+
+      .btn {
+        font-size: 130%;
+      }
+    }
   }
 }
 
@@ -94,11 +112,13 @@
     font-size: 120%; padding-bottom: 5px;
   }
 
+
+
 }
 
 .etalage {
   background: url(../images/layout/homepage_sport.png) no-repeat 0 0;
-  @include background-size(cover); text-align: center;
+  @include background-size(cover); text-align: center; 
 
   * {
     color: $color__a;
@@ -106,6 +126,14 @@
   .center {
     position: relative; top: 50%; @include transform(translateY(-50%));
     padding: 20px 30px;
+
+    @media all and (max-width: $mobile_width) {
+      font-size: 70%; @include transform(translateY(0));
+
+      .btn {
+        font-size: 130%;
+      }
+    }
   }
   h1 {
     font-size: 280%; @include sans-ebi;

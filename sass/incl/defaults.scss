@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5 {
 }
 .coll {
   float: left;
+  @media all and(max-width: $mobile_width) {
+    float: none;
+  }
 }
 p {
   line-height: 1.5em;

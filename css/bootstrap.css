@@ -103,21 +103,27 @@ h1, h2, h3, h4, h5 {
 .coll {
   float: left;
 }
+@media all and (max-width: 700px) {
+  /* line 25, ../sass/incl/defaults.scss */
+  .coll {
+    float: none;
+  }
+}
 
-/* line 28, ../sass/incl/defaults.scss */
+/* line 31, ../sass/incl/defaults.scss */
 p {
   line-height: 1.5em;
   padding-bottom: 15px;
 }
 
-/* line 32, ../sass/incl/defaults.scss */
+/* line 35, ../sass/incl/defaults.scss */
 .center {
   margin: 0 auto;
   position: relative;
   max-width: 1400px;
 }
 
-/* line 38, ../sass/incl/defaults.scss */
+/* line 41, ../sass/incl/defaults.scss */
 .btn {
   display: inline-block;
   border: solid 1px #FFF;
@@ -136,16 +142,16 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 48, ../sass/incl/defaults.scss */
+/* line 51, ../sass/incl/defaults.scss */
 .btn.light {
   background: #5BA4DC;
 }
-/* line 52, ../sass/incl/defaults.scss */
+/* line 55, ../sass/incl/defaults.scss */
 .btn:hover {
   background: #354c66;
   color: #FFF;
 }
-/* line 57, ../sass/incl/defaults.scss */
+/* line 60, ../sass/incl/defaults.scss */
 .btn.play {
   width: 135px;
   height: 135px;
@@ -155,7 +161,7 @@ p {
   background: none;
   padding: 10px;
 }
-/* line 61, ../sass/incl/defaults.scss */
+/* line 64, ../sass/incl/defaults.scss */
 .btn.play span {
   width: 100%;
   height: 100%;
@@ -173,7 +179,7 @@ p {
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-/* line 68, ../sass/incl/defaults.scss */
+/* line 71, ../sass/incl/defaults.scss */
 .btn.play span:before {
   content: '';
   display: inline-block;
@@ -190,7 +196,7 @@ p {
   border-top: solid 20px transparent;
   border-bottom: solid 20px transparent;
 }
-/* line 81, ../sass/incl/defaults.scss */
+/* line 84, ../sass/incl/defaults.scss */
 .btn.play:hover span {
   background: rgba(255, 255, 255, 0.6);
 }

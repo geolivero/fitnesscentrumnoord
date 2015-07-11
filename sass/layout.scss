@@ -48,7 +48,14 @@ header {
     strong {
       @include sans-cb;
     }
+
+    @media all and(max-width: 600px) {
+      font-size: 140%; top: 20px;
+      @include transform(translateY(0));
+    }
   }
+
+
 
   .menu__btn {
     position: absolute; top: 50%; right: 20px;
@@ -62,6 +69,11 @@ header {
     &:hover {
       background: rgba($color__a, 0.3);
       color: $color__a;
+    }
+
+    @media all and(max-width: 600px) {
+      top: auto; @include transform(translateY(0));
+      bottom: 10px;
     }
 
     span.hamb_icon {
