@@ -15,10 +15,43 @@ a {
     color: $color__f + 30;
   }
 }
+h1, h2, h3, h4, h5 {
+  padding-bottom: 20px;
+}
 
 .colls {
   overflow: hidden;
 }
 .coll {
   float: left;
+}
+p {
+  line-height: 1.5em;
+  padding-bottom: 15px;
+}
+.center {
+  margin: 0 auto;
+  position: relative;
+  max-width: $max_width;    
+}
+
+.btn {
+  display: inline-block;
+  border: solid 1px $color__a;
+  height: 40px; line-height: 40px;
+  @include border-radius(40px);
+  padding: 0 20px;
+  background: $color__c;
+  text-decoration: none; margin: 10px 0;
+  @include transition(background 0.3s);
+
+  &.light {
+    background: $color__f;
+  }
+
+  &:hover {
+    background: $color__c - 20;
+    color: $color__a;
+  }
+
 }

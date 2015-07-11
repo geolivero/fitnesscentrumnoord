@@ -21,6 +21,7 @@
 @mixin sans-bi {
   @include sans;
   font-style: italic;
+  font-weight: 300;
 }
 @mixin sans-ebi {
   @include sans;

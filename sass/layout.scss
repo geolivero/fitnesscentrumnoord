@@ -5,6 +5,10 @@ header {
   * {
     color: $color__a;
   }
+  
+  .center {
+    height: 105px;
+  }
 
   nav {
     position: fixed; background: rgba($color__c, 0.8);
@@ -74,6 +78,6 @@ header {
 }
 
 .container {
-  padding-top: 105px; max-width: 1200px;
-  min-height: 100%;
+  padding-top: 105px; max-width: $max_width;
+  min-height: 100%; margin: 0 auto;
 }
