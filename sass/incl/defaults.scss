@@ -40,7 +40,7 @@ p {
   border: solid 1px $color__a;
   height: 40px; line-height: 40px;
   @include border-radius(40px);
-  padding: 0 20px;
+  padding: 0 20px; color: $color__a;
   background: $color__c;
   text-decoration: none; margin: 10px 0;
   @include transition(background 0.3s);
@@ -50,8 +50,38 @@ p {
   }
 
   &:hover {
-    background: $color__c - 20;
+    background: $color__c + 30;
     color: $color__a;
+  }
+
+  &.play {
+    width: 135px; height: 135px;
+    @include border-radius(100%);
+    background: none; padding: 10px;
+    span {
+      width: 100%; height: 100%;
+      @include border-radius(100%);
+      background: $color__a; display: block;
+      text-indent: -999em; overflow: hidden;
+      padding-top: 100%; position: relative;
+      @include transition(background 0.3s);
+      &:before {
+        content: ''; display: inline-block;
+        position: absolute; left: 50%; top: 50%;
+        @include transform(translateY(-50%) translateX(-30%));
+        height: 1px; width: 1px;
+        border-left: solid 30px $color__c;
+        border-top: solid 20px transparent;
+        border-bottom: solid 20px transparent;
+      }
+      
+    }
+    
+    &:hover {
+      span {
+        background: rgba($color__a, 0.6);
+      }
+    }
   }
 
 }

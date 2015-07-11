@@ -1,7 +1,7 @@
 .homepage__panel {
   position: absolute; top: 105px;
   left: 50%; bottom: 0; 
-  right: 0; min-height: 650px; max-width: $max_width;
+  right: 0; min-height: 670px; max-width: $max_width;
   width: 100%;
   @include transform(translateX(-50%));
 
@@ -24,10 +24,15 @@
 
     .coll {
       width: 50%;
-      //@include background-image(radial-gradient(100% 100%, $color__e 100px, $color__f 30px));
-      @include background-image(radial-gradient(100% 100%, $color__g -20%, $color__d 100%));
+      @include background-image(radial-gradient(50% 0 50% 100%, $color__g, $color__d));
       background-repeat: no-repeat;
-
+      @include background-size(cover);
+      &.left {
+        padding: 20px;
+        h2 {
+          @include sans-b; font-size: 160%;
+        }
+      }
       * {
         color: $color__a;
       }
@@ -44,6 +49,51 @@
   .etalage {
     height: 60%;
   }
+}
+
+.coll.right .highlight__1, .coll.right .highlight__2 {
+  .center {
+    position: relative; top: 50%;
+    @include transform(translateY(-50%));
+  }
+}
+
+.coll.right .highlight__1 {
+  text-align: center;
+  @include background-image(linear-gradient(to top right, $color__a 50%, rgba($color__h, 0.4) 50%));
+
+  padding: 20px;
+
+  
+
+  p {
+    @include sans-c; font-size: 180%; line-height: 1.1em;
+  }
+
+  h2 {
+    color: $color__f;
+    @include sans-ebi; font-size: 300%;
+  }
+
+}
+
+.coll.right .highlight__2 {
+  background: url(../images/layout/impressie_bg.png) no-repeat center center;
+  @include background-size(cover);
+  padding: 20px; text-align: center;
+  h2 {
+    @include sans-b; padding-bottom: 20px;
+    font-size: 200%;
+  }
+  * {
+    color: $color__a;
+  }
+
+  p {
+    @include sans-l;
+    font-size: 120%; padding-bottom: 5px;
+  }
+
 }
 
 .etalage {

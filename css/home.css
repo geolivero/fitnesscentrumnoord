@@ -5,7 +5,7 @@ Error: Undefined variable: "$max_width".
 1: .homepage__panel {
 2:   position: absolute; top: 105px;
 3:   left: 50%; bottom: 0; 
-4:   right: 0; min-height: 650px; max-width: $max_width;
+4:   right: 0; min-height: 670px; max-width: $max_width;
 5:   width: 100%;
 6:   @include transform(translateX(-50%));
 7: 
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$max_width\".\A         on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/home.scss\A \A 1: .homepage__panel {\A 2:   position: absolute; top: 105px;\A 3:   left: 50%; bottom: 0; \A 4:   right: 0; min-height: 650px; max-width: $max_width;\A 5:   width: 100%;\A 6:   @include transform(translateX(-50%));\A 7: \A 8: \A 9:   .rows {"; }
+  content: "Error: Undefined variable: \"$max_width\".\A         on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/home.scss\A \A 1: .homepage__panel {\A 2:   position: absolute; top: 105px;\A 3:   left: 50%; bottom: 0; \A 4:   right: 0; min-height: 670px; max-width: $max_width;\A 5:   width: 100%;\A 6:   @include transform(translateX(-50%));\A 7: \A 8: \A 9:   .rows {"; }
