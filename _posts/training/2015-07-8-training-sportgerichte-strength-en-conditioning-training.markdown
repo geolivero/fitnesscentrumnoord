@@ -7,6 +7,7 @@ tagline: In alle taken van sport waarbij je de fysieke en mentale voorwaarden wi
 thumbimg: /images/training/training_9.jpg
 headlineimg: /images/training/training_9.jpg
 categories: training
+video: training_1
 ---
 In alle taken van sport waarbij je de fysieke en mentale voorwaarden wilt optimaliseren is een goed opgezet strength & conditioning programma niet meer weg te denken. De atletische fundering is de basis en dmv screening bepaal je waar de kracht en zwakte ligt. Deze analyse vormt de basis om te werken aan de motorische eigenschappen kracht, snelheid, uithoudingsvermogen, coordinatie en lenigheid/mobiliteit.
 

@@ -7,6 +7,7 @@ tagline: Fitness-training is een manier van trainen waarvan steeds meer mensen h
 thumbimg: /images/fitnessnoord/fitnessnoord_5.jpg
 headlineimg: /images/fitnessnoord/fitnessnoord_5.jpg
 categories: training
+
 ---
 Fitness is voor ons eigenlijk niet meer of minder dan krachttraining alleen teveel mensen zien dan gelijk beelden voor zich van grote glimmende gespierde lijven. Dit misverstand is nog al eens een drempel voor velen, vooral vrouwen, om er niet aan te beginnen. Terwijl wij
 ervan overtuigd zijn dat krachttraining de allerbeste training is om je lichaam topfit te maken en te houden. 
