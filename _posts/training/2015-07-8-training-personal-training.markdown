@@ -4,7 +4,6 @@ title:  "Personal training"
 date:   2015-07-08 10:43:45
 permalink: /trainingen/personal-training
 tagline: Je trainingstijd wordt korter, maar het rendement wordt groter.
-thumbimg: /images/hanskroon/hanskroon_1.jpg
 headlineimg: /images/hanskroon/hanskroon_1.jpg
 categories: training
 ---
