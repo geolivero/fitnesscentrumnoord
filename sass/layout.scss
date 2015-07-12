@@ -1,6 +1,6 @@
 header.main__header {
   position: fixed; top: 0; width: 100%;
-  height: 105px; background: $color__c;
+  height: 105px; background: $color__c; z-index: 150;
 
   * {
     color: $color__a;
@@ -14,7 +14,7 @@ header.main__header {
   nav {
     position: fixed; background: rgba($color__c, 0.9);
     width: 100%; height: 100%; bottom: 0;
-    top: 0; z-index: 30; text-align: center;
+    top: 0; z-index: 150; text-align: center;
     display: none;
   }
 
