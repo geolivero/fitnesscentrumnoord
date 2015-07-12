@@ -16,5 +16,7 @@ menus:
     main:
     - Home: /
     - Trainingen: /trainingen/
-    - About: /about/
-    - Contact: /contact/
+    - Voeding: /voeding/
+    - Verstand en gevoel: /verstand-en-gevoel/
+    - Fitnesscentrumnoord: /fitnesscentrumnoord/
+    - contact: /fitnesscentrumnoord/contact/
