@@ -37,9 +37,9 @@ App.crumblePad = function () {
 
   $.each(querys, function (i, data) {
     if (i > 0 && data.length && i < querys.length - 2) {
-      list.push('<li><a href="/' + data + '">' + data + '</a><span class="separator"></span></li>');
+      list.push('<li><a href="/' + data + '">' + data.replace(/\-/g, ' ') + '</a><span class="separator"></span></li>');
     } else if (i > 0 && data.length && i < querys.length - 1) {
-      list.push('<li>' + data + '</li>');
+      list.push('<li>' + data.replace(/\-/g, ' ') + '</li>');
     }
   });
 
