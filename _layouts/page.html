@@ -10,7 +10,7 @@ layout: default
       {% capture thecycle %}{% cycle 'row_odd', 'row_even' %}{% endcapture %}
         <article id="post__{{ forloop.index }}" class="{{ thecycle }} {% if(post.facebook) %} facebook {% endif %}" style="background-image: url({{post.thumbimg}})">
           {% if(post.facebook) %}
-          <a class="post-link" href="https://www.facebook.com/pages/Fitnesscentrum-Noord/215204421868328?fref=ts"></a>
+          <a target="_blank" class="post-link" href="https://www.facebook.com/pages/Fitnesscentrum-Noord/215204421868328?fref=ts"></a>
           <div class="innerContent">
             <h2>
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

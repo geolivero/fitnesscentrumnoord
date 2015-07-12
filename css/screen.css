@@ -716,7 +716,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   display: block;
   width: 100%;
   height: 100%;
-  background: rgba(23, 46, 72, 0.2);
+  background: rgba(23, 46, 72, 0.6);
   position: absolute;
   left: 0;
   top: 0;
@@ -727,7 +727,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
 }
 /* line 29, ../sass/pages.scss */
 .post-list article:hover:before {
-  background: rgba(23, 46, 72, 0.6);
+  background: rgba(23, 46, 72, 0.9);
 }
 @media all and (max-width: 700px) {
   /* line 5, ../sass/pages.scss */
