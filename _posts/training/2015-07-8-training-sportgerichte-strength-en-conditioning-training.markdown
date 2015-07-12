@@ -4,7 +4,6 @@ title:  "Sportgerichte strength en conditioning training"
 date:   2015-07-08 10:43:45
 permalink: /trainingen/sportgerichte-strength-en-conditioning-training
 tagline: In alle taken van sport waarbij je de fysieke en mentale voorwaarden wilt optimaliseren.
-thumbimg: /images/training/training_9.jpg
 headlineimg: /images/training/training_9.jpg
 categories: training
 video: training_1
