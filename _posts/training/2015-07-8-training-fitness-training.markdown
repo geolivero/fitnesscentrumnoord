@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Cardio Training"
+title:  "Fitness Training"
 date:   2015-07-08 10:43:45
-permalink: /trainingen/cardio-training
-tagline: Het algehele uithoudingsvermogen wordt bepaald door het functioneren van hart en longen.
+permalink: /trainingen/fitness-training
+tagline: Fitness-training is een manier van trainen waarvan steeds meer mensen het belang gaan inzien en gebruik van maken. 
 thumbimg: /images/fitnessnoord/fitnessnoord_1.jpg
 headlineimg: /images/fitnessnoord/fitnessnoord_1.jpg
 categories: training

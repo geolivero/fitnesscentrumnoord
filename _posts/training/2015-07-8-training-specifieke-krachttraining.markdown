@@ -2,11 +2,12 @@
 layout: post
 title:  "Specifieke Krachttraining"
 date:   2015-07-08 10:43:45
-permalink: /training/specifieke-krachttraining
+permalink: /trainingen/specifieke-krachttraining
 tagline: Verschillende vormen van kracht gaan een steeds belangrijker rol spelen in vele takken van sport.
 thumbimg: /images/training/training_6.jpg
 headlineimg: /images/training/training_6.jpg
 categories: training
+video: training
 ---
 ## Specifieke krachttraining 
 
