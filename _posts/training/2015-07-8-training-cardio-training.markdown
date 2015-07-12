@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cardio Training"
+title:  "Cardio training"
 date:   2015-07-08 10:43:45
 permalink: /trainingen/cardio-training
 tagline: Het algehele uithoudingsvermogen wordt bepaald door het functioneren van hart en longen.
