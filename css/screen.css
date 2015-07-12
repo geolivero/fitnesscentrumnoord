@@ -820,6 +820,10 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   top: 0;
 }
 /* line 17, ../sass/posts.scss */
+.post__header.video {
+  height: 420px;
+}
+/* line 21, ../sass/posts.scss */
 .post__header .videoObj {
   position: absolute;
   top: 50%;
@@ -834,19 +838,19 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-/* line 29, ../sass/posts.scss */
+/* line 33, ../sass/posts.scss */
 .post__header * {
   color: #FFF;
 }
-/* line 33, ../sass/posts.scss */
+/* line 37, ../sass/posts.scss */
 .post__header h1 {
   font-size: 380%;
 }
-/* line 37, ../sass/posts.scss */
+/* line 41, ../sass/posts.scss */
 .post__header p {
   font-size: 150%;
 }
-/* line 41, ../sass/posts.scss */
+/* line 45, ../sass/posts.scss */
 .post__header .center {
   position: relative;
   z-index: 3;
@@ -857,51 +861,53 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   transform: translateY(-50%);
 }
 
-/* line 47, ../sass/posts.scss */
+/* line 51, ../sass/posts.scss */
 div.post-content {
   padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
 }
-/* line 50, ../sass/posts.scss */
+/* line 54, ../sass/posts.scss */
 div.post-content h1, div.post-content h2, div.post-content h3, div.post-content h4, div.post-content h5 {
   padding-bottom: 20px;
 }
-/* line 54, ../sass/posts.scss */
+/* line 58, ../sass/posts.scss */
 div.post-content h1 {
   font-size: 250%;
 }
-/* line 57, ../sass/posts.scss */
+/* line 61, ../sass/posts.scss */
 div.post-content h2 {
   font-size: 220%;
 }
-/* line 60, ../sass/posts.scss */
+/* line 64, ../sass/posts.scss */
 div.post-content h3 {
   font-size: 200%;
 }
-/* line 63, ../sass/posts.scss */
+/* line 67, ../sass/posts.scss */
 div.post-content h4 {
   font-size: 180%;
 }
-/* line 66, ../sass/posts.scss */
+/* line 70, ../sass/posts.scss */
 div.post-content h5 {
   font-size: 150%;
 }
-/* line 69, ../sass/posts.scss */
+/* line 73, ../sass/posts.scss */
 div.post-content strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-/* line 73, ../sass/posts.scss */
+/* line 77, ../sass/posts.scss */
 div.post-content ul, div.post-content ol {
   margin-left: 10px;
   padding-left: 10px;
   list-style-type: disc;
   padding-bottom: 20px;
 }
-/* line 79, ../sass/posts.scss */
+/* line 83, ../sass/posts.scss */
 div.post-content ol {
   list-style-type: decimal;
 }
-/* line 83, ../sass/posts.scss */
+/* line 87, ../sass/posts.scss */
 div.post-content em {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;

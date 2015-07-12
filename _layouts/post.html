@@ -4,7 +4,7 @@ layout: default
 <div class="crumle_pad">
 </div>
 <div class="post">
-  <header class="post__header" style="background-image: url({% if(page.headlineimg) %} {{ page.headlineimg }} {% else %} {{site.baseheaderimg }} {% endif %});" class="post-header">
+  <header class="post__header {% if(page.video) %} video {% endif %}" style="background-image: url({% if(page.headlineimg) %} {{ page.headlineimg }} {% else %} {{site.baseheaderimg }} {% endif %});" class="post-header">
     <div class="center">
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-meta">{{ page.tagline }}</p>
