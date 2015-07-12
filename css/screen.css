@@ -802,6 +802,47 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   -webkit-background-size: cover;
   background-size: cover;
   height: 330px;
+  padding: 30px;
+  position: relative;
+}
+/* line 9, ../sass/posts.scss */
+.post__header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 46, 72, 0.4);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 16, ../sass/posts.scss */
+.post__header * {
+  color: #FFF;
+}
+/* line 20, ../sass/posts.scss */
+.post__header h1 {
+  font-size: 380%;
+}
+/* line 24, ../sass/posts.scss */
+.post__header p {
+  font-size: 150%;
+}
+/* line 28, ../sass/posts.scss */
+.post__header .center {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 34, ../sass/posts.scss */
+div.post-content {
+  padding: 30px;
 }
 
 /*# sourceMappingURL=screen.css.map */
