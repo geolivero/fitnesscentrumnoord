@@ -18,14 +18,13 @@ App.articleClasses = function () {
       $(this).addClass('row');
     }
     if ((i + 1) % 3 === 0) {
-      //$(this).addClass('row');
       rows += 1;
     }
   });
 };
 
 App.crumblePad = function () {
-  var list = ['<li><a href="/">home</a><span class="separator"><span></li>'],
+  var list = ['<li><a href="/">home</a><span class="separator"></span></li>'],
     url,
     querys;
 
@@ -37,14 +36,16 @@ App.crumblePad = function () {
   querys = url.split('/');
 
   $.each(querys, function (i, data) {
-    if (i > 0 && data.length && i < querys.length - 1) {
-      list.push('<li><a href="/' + data + '">' + data + '</a><span class="separator"><span></li>')
+    if (i > 0 && data.length && i < querys.length - 2) {
+      list.push('<li><a href="/' + data + '">' + data + '</a><span class="separator"></span></li>');
+    } else if (i > 0 && data.length && i < querys.length - 1) {
+      list.push('<li>' + data + '</li>');
     }
   });
 
   $('.crumle_pad').append([
     '<ul>{{list}}</ul>'
-  ].join('').replace('{{list}}', list.join(',')));
+  ].join('').replace('{{list}}', list.join('')));
 };
 
 $(function () {

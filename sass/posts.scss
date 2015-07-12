@@ -1,0 +1,6 @@
+.post__header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  @include background-size(cover);
+  height: 330px;
+}

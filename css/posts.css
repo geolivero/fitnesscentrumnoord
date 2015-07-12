@@ -1,21 +1,23 @@
 /*
-Error: Undefined variable: "$color__c".
-        on line 3 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss
+Error: Undefined mixin 'background-size'.
+        on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss, in `background-size'
+        from line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss
 
-1: header.main__header {
-2:   position: fixed; top: 0; width: 100%;
-3:   height: 105px; background: $color__c;
-4: 
-5:   * {
-6:     color: $color__a;
-7:   }
-8:   
+1: .post__header {
+2:   background-position: center center;
+3:   background-repeat: no-repeat;
+4:   @include background-size(cover);
+5:   height: 330px;
+6: }
 
 Backtrace:
-/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss:3
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss:4:in `background-size'
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss:4
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `with_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color__c\".\A         on line 3 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/layout.scss\A \A 1: header.main__header {\A 2:   position: fixed; top: 0; width: 100%;\A 3:   height: 105px; background: $color__c;\A 4: \A 5:   * {\A 6:     color: $color__a;\A 7:   }\A 8:   "; }
+  content: "Error: Undefined mixin 'background-size'.\A         on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss, in `background-size'\A         from line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss\A \A 1: .post__header {\A 2:   background-position: center center;\A 3:   background-repeat: no-repeat;\A 4:   @include background-size(cover);\A 5:   height: 330px;\A 6: }"; }

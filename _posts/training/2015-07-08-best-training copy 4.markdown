@@ -2,7 +2,7 @@
 layout: post
 title:  "Best training"
 date:   2015-07-08 10:44:25
-permalink: /training/best
+permalink: /trainingen/best
 tagline: To add new posts, simply add a file in the convention
 thumbimg: http://placehold.it/400x300
 headlineimg:
