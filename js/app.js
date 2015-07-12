@@ -3,12 +3,38 @@ var Map = require('./modules/Map'),
   App = {};
   $ = require('jquery');
 
+App.fbURL = 'https://graph.facebook.com/215204421868328/posts?access_token=582087205265792|0iL1fWaQ4CkG8WZdyVT5Mh1a-iw';
+
 App.onHash = function (hash) {
   var q = hash.split('/');
   if (q[0] === 'menu') {
     App.$menu.attr('href', '#menu/' + (q[1] === 'add' ? 'remove' : 'add'));
     App.$nav[q[1] + 'Class']('show');
   }
+};
+
+App.addFB = function () {
+  var el = $('.fbMessages'),
+    renderMessages,
+    counter = 0;
+    fbMessages = [];
+
+  renderMessages = function () {
+    setInterval(function () {
+      var formatedMessage = fbMessages[counter].message;
+      if (formatedMessage) {
+        formatedMessage = formatedMessage.length > 100 ? formatedMessage.substring(0, 100) + '...' : formatedMessage;
+        el.html(formatedMessage);
+      }
+      counter = counter > 5 ? 0 : counter + 1;
+      
+    }, 2000);
+  };
+
+  $.getJSON(App.fbURL, function (fb) {
+      fbMessages = fb.data;
+      renderMessages();
+  });
 };
 
 App.articleClasses = function () {
@@ -77,4 +103,6 @@ $(function () {
   App.articleClasses();
   App.crumblePad();
   App.video();
+
+  App.addFB();
 });

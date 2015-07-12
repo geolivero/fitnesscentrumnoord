@@ -747,8 +747,12 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   height: 100%;
   z-index: 30;
 }
+/* line 43, ../sass/pages.scss */
+.post-list article.facebook {
+  background: url(../images/layout/fb_bg.png) no-repeat top center !important;
+}
 
-/* line 44, ../sass/pages.scss */
+/* line 48, ../sass/pages.scss */
 .post-list article .innerContent {
   position: absolute;
   top: 50%;
@@ -761,35 +765,35 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   text-align: center;
   width: 100%;
 }
-/* line 47, ../sass/pages.scss */
+/* line 51, ../sass/pages.scss */
 .post-list article .innerContent * {
   color: #FFF;
 }
-/* line 50, ../sass/pages.scss */
+/* line 54, ../sass/pages.scss */
 .post-list article .innerContent h2 a {
   font-size: 230%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-decoration: none;
 }
-/* line 53, ../sass/pages.scss */
+/* line 57, ../sass/pages.scss */
 .post-list article .innerContent p {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 120%;
 }
-/* line 56, ../sass/pages.scss */
+/* line 60, ../sass/pages.scss */
 .post-list article .innerContent h2 {
   padding-bottom: 10px;
 }
 
-/* line 60, ../sass/pages.scss */
+/* line 64, ../sass/pages.scss */
 .post-title.page {
   display: none;
 }
 
-/* line 64, ../sass/pages.scss */
+/* line 68, ../sass/pages.scss */
 .post-list article a {
   display: block;
 }

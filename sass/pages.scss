@@ -39,6 +39,10 @@
     position: absolute; left: 0; top: 0; display: block; text-indent: -999em;
     width: 100%; height: 100%; z-index: 30;
   }
+
+  &.facebook {
+    background: url(../images/layout/fb_bg.png) no-repeat top center!important;
+  }
 }
 
 .post-list article .innerContent {
