@@ -2,7 +2,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   @include background-size(cover);
-  height: 330px;
+  height: 400px;
   padding: 30px;
   position: relative; 
   overflow: hidden;
@@ -15,7 +15,7 @@
   }
 
   &.video {
-    height: 420px;
+    height: 450px;
   }
 
   .videoObj {

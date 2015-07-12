@@ -806,7 +806,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 330px;
+  height: 400px;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -825,7 +825,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
 }
 /* line 17, ../sass/posts.scss */
 .post__header.video {
-  height: 420px;
+  height: 450px;
 }
 /* line 21, ../sass/posts.scss */
 .post__header .videoObj {
