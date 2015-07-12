@@ -23,6 +23,13 @@ App.articleClasses = function () {
   });
 };
 
+App.video = function () {
+  var vid = document.getElementById('bgvid');
+  if (vid) {
+    vid.muted = true;
+  }
+};
+
 App.crumblePad = function () {
   var list = ['<li><a href="/">home</a><span class="separator"></span></li>'],
     url,
@@ -69,4 +76,5 @@ $(function () {
 
   App.articleClasses();
   App.crumblePad();
+  App.video();
 });

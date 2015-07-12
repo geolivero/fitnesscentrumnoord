@@ -66,8 +66,8 @@ header.main__header {
   .menu__btn {
     position: absolute; top: 50%; right: 20px;
     padding: 5px 15px; overflow: hidden; @include border-radius(10px);
-    @include transform(translateY(-50%));
-    @include sans-c; z-index: 31;
+    @include transform(translateY(-50%)); 
+    @include sans-c; z-index: 200;
     font-size: 150%;
     text-transform: uppercase;
     text-decoration: none;

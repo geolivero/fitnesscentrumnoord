@@ -33,4 +33,42 @@
 
 div.post-content {
   padding: 30px;
+
+  h1, h2, h3, h4, h5 {
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 250%;
+  }
+  h2 {
+    font-size: 220%;
+  }
+  h3 {
+    font-size: 200%;
+  }
+  h4 {
+    font-size: 180%;
+  }
+  h5 {
+    font-size: 150%;
+  }
+  strong {
+    @include sans-b;
+  }
+
+  ul, ol {
+    margin-left: 10px; padding-left: 10px;
+    list-style-type: disc;
+    padding-bottom: 20px;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  em {
+    @include sans-bi;
+  }
+
 }
