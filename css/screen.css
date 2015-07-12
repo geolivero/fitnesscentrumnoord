@@ -796,7 +796,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
 
 /* line 1, ../sass/posts.scss */
 .post__header {
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
