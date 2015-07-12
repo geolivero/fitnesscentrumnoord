@@ -805,35 +805,51 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   height: 330px;
   padding: 30px;
   position: relative;
+  overflow: hidden;
 }
-/* line 9, ../sass/posts.scss */
+/* line 10, ../sass/posts.scss */
 .post__header:before {
   content: '';
   display: block;
   width: 100%;
   height: 100%;
   background: rgba(23, 46, 72, 0.4);
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 16, ../sass/posts.scss */
+/* line 17, ../sass/posts.scss */
+.post__header .videoObj {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+/* line 29, ../sass/posts.scss */
 .post__header * {
   color: #FFF;
 }
-/* line 20, ../sass/posts.scss */
+/* line 33, ../sass/posts.scss */
 .post__header h1 {
   font-size: 380%;
 }
-/* line 24, ../sass/posts.scss */
+/* line 37, ../sass/posts.scss */
 .post__header p {
   font-size: 150%;
 }
-/* line 28, ../sass/posts.scss */
+/* line 41, ../sass/posts.scss */
 .post__header .center {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   top: 50%;
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -841,51 +857,51 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   transform: translateY(-50%);
 }
 
-/* line 34, ../sass/posts.scss */
+/* line 47, ../sass/posts.scss */
 div.post-content {
   padding: 30px;
 }
-/* line 37, ../sass/posts.scss */
+/* line 50, ../sass/posts.scss */
 div.post-content h1, div.post-content h2, div.post-content h3, div.post-content h4, div.post-content h5 {
   padding-bottom: 20px;
 }
-/* line 41, ../sass/posts.scss */
+/* line 54, ../sass/posts.scss */
 div.post-content h1 {
   font-size: 250%;
 }
-/* line 44, ../sass/posts.scss */
+/* line 57, ../sass/posts.scss */
 div.post-content h2 {
   font-size: 220%;
 }
-/* line 47, ../sass/posts.scss */
+/* line 60, ../sass/posts.scss */
 div.post-content h3 {
   font-size: 200%;
 }
-/* line 50, ../sass/posts.scss */
+/* line 63, ../sass/posts.scss */
 div.post-content h4 {
   font-size: 180%;
 }
-/* line 53, ../sass/posts.scss */
+/* line 66, ../sass/posts.scss */
 div.post-content h5 {
   font-size: 150%;
 }
-/* line 56, ../sass/posts.scss */
+/* line 69, ../sass/posts.scss */
 div.post-content strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-/* line 60, ../sass/posts.scss */
+/* line 73, ../sass/posts.scss */
 div.post-content ul, div.post-content ol {
   margin-left: 10px;
   padding-left: 10px;
   list-style-type: disc;
   padding-bottom: 20px;
 }
-/* line 66, ../sass/posts.scss */
+/* line 79, ../sass/posts.scss */
 div.post-content ol {
   list-style-type: decimal;
 }
-/* line 70, ../sass/posts.scss */
+/* line 83, ../sass/posts.scss */
 div.post-content em {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;

@@ -10,8 +10,8 @@ Error: Undefined mixin 'background-size'.
 5:   height: 330px;
 6:   padding: 30px;
 7:   position: relative; 
-8: 
-9:   &:before {
+8:   overflow: hidden;
+9: 
 
 Backtrace:
 /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss:4:in `background-size'
@@ -71,4 +71,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background-size'.\A         on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss, in `background-size'\A         from line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss\A \A 1: .post__header {\A 2:   background-position: center center;\A 3:   background-repeat: no-repeat;\A 4:   @include background-size(cover);\A 5:   height: 330px;\A 6:   padding: 30px;\A 7:   position: relative; \A 8: \A 9:   &:before {"; }
+  content: "Error: Undefined mixin 'background-size'.\A         on line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss, in `background-size'\A         from line 4 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/posts.scss\A \A 1: .post__header {\A 2:   background-position: center center;\A 3:   background-repeat: no-repeat;\A 4:   @include background-size(cover);\A 5:   height: 330px;\A 6:   padding: 30px;\A 7:   position: relative; \A 8:   overflow: hidden;\A 9: "; }
