@@ -205,4 +205,10 @@ p {
   background: rgba(255, 255, 255, 0.6);
 }
 
+/* line 92, ../sass/incl/defaults.scss */
+.crumle_pad {
+  height: 50px;
+  background: #FFF;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

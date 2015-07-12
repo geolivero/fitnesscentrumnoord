@@ -36,7 +36,8 @@ $.fn.maps = function(options) {
         stylers: [{
           hue: ''
         }]
-      }];
+      }],
+      highResIcon;
 
     this.map = new google.maps.Map(this.el, {
       center: latLong,
@@ -59,10 +60,11 @@ $.fn.maps = function(options) {
           map: this.map,
         });
       } else {
+        highResIcon = new google.maps.MarkerImage(defaults.icon, null, null, null, new google.maps.Size(32,47));
         this.marker = new google.maps.Marker({
           position: latLong,
           map: this.map,
-          icon: defaults.icon
+          icon: highResIcon
         });
       }
     }

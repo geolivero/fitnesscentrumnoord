@@ -1,0 +1,76 @@
+/*
+Error: Undefined mixin 'background-size'.
+        on line 7 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss, in `background-size'
+        from line 7 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss
+
+2:   overflow: hidden;
+3: }
+4: 
+5: .post-list article {
+6:   display: inline-block; overflow: hidden;
+7:   height: 340px; @include background-size(cover);
+8:   background-position: center center;
+9:   position: relative; width: 30%; float: left;
+10: 
+11:   &.row_even {
+12:     width: 35%;
+
+Backtrace:
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss:7:in `background-size'
+/Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss:7
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:98:in `with_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:23:in `block in render_with_sourcemap'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:22:in `render_with_sourcemap'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/listen-2.7.5/lib/listen/listener.rb:159:in `call'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/listen-2.7.5/lib/listen/listener.rb:159:in `block in _wait_for_changes'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/listen-2.7.5/lib/listen/listener.rb:148:in `loop'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/listen-2.7.5/lib/listen/listener.rb:148:in `_wait_for_changes'
+/Users/contact/.rvm/gems/ruby-2.0.0-p247/gems/listen-2.7.5/lib/listen/listener.rb:41:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'background-size'.\A         on line 7 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss, in `background-size'\A         from line 7 of /Users/contact/Sites/projecten/web/fitnescentrumnoord/www/sass/pages.scss\A \A 2:   overflow: hidden;\A 3: }\A 4: \A 5: .post-list article {\A 6:   display: inline-block; overflow: hidden;\A 7:   height: 340px; @include background-size(cover);\A 8:   background-position: center center;\A 9:   position: relative; width: 30%; float: left;\A 10: \A 11:   &.row_even {\A 12:     width: 35%;"; }

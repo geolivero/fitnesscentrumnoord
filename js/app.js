@@ -11,6 +11,42 @@ App.onHash = function (hash) {
   }
 };
 
+App.articleClasses = function () {
+  var rows = 0;
+  $('.post-list article').each(function (i) {
+    if ((rows + 1) % 2 === 1) {
+      $(this).addClass('row');
+    }
+    if ((i + 1) % 3 === 0) {
+      //$(this).addClass('row');
+      rows += 1;
+    }
+  });
+};
+
+App.crumblePad = function () {
+  var list = ['<li><a href="/">home</a><span class="separator"><span></li>'],
+    url,
+    querys;
+
+  if (!$('.crumle_pad').length) {
+    return;
+  }
+
+  url = window.location.toString().split('//')[1],
+  querys = url.split('/');
+
+  $.each(querys, function (i, data) {
+    if (i > 0 && data.length && i < querys.length - 1) {
+      list.push('<li><a href="/' + data + '">' + data + '</a><span class="separator"><span></li>')
+    }
+  });
+
+  $('.crumle_pad').append([
+    '<ul>{{list}}</ul>'
+  ].join('').replace('{{list}}', list.join(',')));
+};
+
 $(function () {
   App.$menu = $('header .menu__btn');
   App.$nav = $('header');
@@ -27,6 +63,9 @@ $(function () {
     scaleControl: false,
     draggable: true,
     scrollwheel: true,
-    icon: '/images/assets/icon_kaart.png'
+    icon: '/images/assets/icon_kaart@2x.png'
   });
+
+  App.articleClasses();
+  App.crumblePad();
 });
