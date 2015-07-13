@@ -4,7 +4,8 @@ title:  "Onze missie"
 date:   2015-07-08 10:43:45
 permalink: /fitnesscentrumnoord/onze-missie
 tagline: We beperken ons tot de essentie van het trainen met resultaat, door simpelweg aan de slag te gaan.
-headlineimg: /images/fitnessnoord/fitnessnoord_6.jpg
+thumbimg: /images/hanskroon/hanskroon_1.jpg
+headlineimg: /images/hanskroon/hanskroon_1.jpg
 categories: fitnesscentrumnoord
 ---
 Welkom bij de site van Fitnesscentrum Noord waar u alle informatie kunt vinden over onze activiteiten. Wij zijn een "no-nonsense" centrum waar we simpel maar doeltreffend te werk gaan zonder allerlei overbodige luxe eromheen. We beperken ons tot de essentie van het trainen met resultaat, door simpelweg aan de slag te gaan. Verantwoord bewegen moet je nog altijd zelf doen geen machine, hoe imposant dan ook, kan dat voor jou doen. Uiteraard kunnen wij je daarbij deskundig ondersteunen.

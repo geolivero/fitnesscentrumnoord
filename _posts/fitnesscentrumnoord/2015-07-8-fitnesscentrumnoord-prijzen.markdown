@@ -4,8 +4,7 @@ title:  "Prijzen"
 date:   2015-07-08 10:43:45
 permalink: /fitnesscentrumnoord/prijzen
 tagline: Naast natural bodybuilders begeleidt hij ook topsporters.
-thumbimg: /images/hanskroon/hanskroon_2.jpg
-headlineimg: /images/hanskroon/hanskroon_2.jpg
+headlineimg: /images/fitnessnoord/fitnessnoord_6.jpg
 categories: fitnesscentrumnoord
 ---
 ### Maandabonnement: 

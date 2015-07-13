@@ -4,7 +4,6 @@ title:  "Media"
 date:   2015-07-08 10:43:45
 permalink: /fitnesscentrumnoord/media
 tagline: Wat voedingsfilosofie betreft is Hans een man die het belang van eiwit altijd scherp voor ogen heeft gehad.
-thumbimg: /images/hanskroon/hanskroon_1.jpg
 headlineimg: /images/hanskroon/hanskroon_1.jpg
 categories: fitnesscentrumnoord
 
