@@ -3,7 +3,7 @@ layout: post
 title:  "Supplementen"
 date:   2015-07-08 10:43:45
 permalink: /voeding/supplementen
-tagline:  Alle lichaamsprocessen moeten ondersteund worden door vitamines en mineralen
+tagline:  Alle lichaamsprocessen moeten ondersteund worden door vitamines en mineralen.
 thumbimg: /images/training/training_2.jpg
 headlineimg: /images/training/training_2.jpg
 categories: voeding

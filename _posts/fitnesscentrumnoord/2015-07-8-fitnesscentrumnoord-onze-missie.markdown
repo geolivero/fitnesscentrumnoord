@@ -11,7 +11,7 @@ categories: fitnesscentrumnoord
 Welkom bij de site van Fitnesscentrum Noord waar u alle informatie kunt vinden over onze activiteiten. Wij zijn een "no-nonsense" centrum waar we simpel maar doeltreffend te werk gaan zonder allerlei overbodige luxe eromheen. We beperken ons tot de essentie van het trainen met resultaat, door simpelweg aan de slag te gaan. Verantwoord bewegen moet je nog altijd zelf doen geen machine, hoe imposant dan ook, kan dat voor jou doen. Uiteraard kunnen wij je daarbij deskundig ondersteunen.
  
  
-### Ons doel en onze filosofie:
+### Ons doel en onze filosofie
  Op een simpele en vooral effectieve manier sport aanbieden voor alle lagen van de bevolking zonder voorkeur. Of je nu het minimale of het maximale uit je lichaam wilt halen je gezondheid staat voorop. We denken dus altijd aan de gevolgen voor de lange termijn en dat blijft het uitgangspunt bij de keuzes die gemaakt worden bij trainings-, voedings- en suppletieadviezen. Wij zijn een felle tegenstander van doping en voeren een anti-dopingbeleid.
  
 ###Een vak apart
@@ -76,19 +76,19 @@ Welkom bij de site van Fitnesscentrum Noord waar u alle informatie kunt vinden o
 ### Zin en onzin van technieken
  Er zijn vele trainingstechnieken toepasbaar in je training maar welke zijn nu echt een toegevoegde waarde om het rendement van je training te vergroten.
  
-### Superset:
+### Superset
  Waar ik veel gebruik van maak is het koppellen van agonisten(hoofdspier) en antagonsiten(tegenover liggende spier). Simpel gezegd het achter elkaar doen van b.v een Borstoefening gevolgd door een Rugoefening, of een bicepsoefening gelijk laten volgen door een tricepsoefening. Hierdoor kun je in een kortere tijd intensiever trainen. Een andere variatie die ik gebruik bij een superset is een zware basisoefening laten volgen door een isolatieoefening voor dezelfde spiergroep b.v. bankdrukken in combinatie met flyes, of Hack-squat met leg-extension. Hierdoor doe je een aanspraak op heel veel spiervezels omdat er heel intensief gewerkt wordt en je krijgt een maximale doorbloeding in het spiergebied.
  
-### Descending set:
+### Descending set
  Van deze techniek maak ik maar af en toe gebruik omdat hij zeer uitputtend is. Bij je laatste oefening van een spiergroep ga je van zwaar naar steeds lichter in 2-4 series achter elkaar zonder rust. Op die manier kun je een spier tot het uiterste prikkelen en uitputten.
  
-### Continuous tension:
+### Continuous tension
  Het continu onder spanning houden van de spiergroep tijdens de uitvoering van een oefening. Dit probeer ik eigenlijk altijd toe te passen. Er mag dus geen enkele stop in de beweging zitten maar je gaat achter elkaar door tijdens je oefening van begin- naar eindstand etc. Elke keer wanneer je in de eindstand bent span je de spier zo hard mogelijk door en daarna ga je verder.
  
-### Shock principe:
+### Shock principe
  Als je constant het lichaam traint volgens een goed systeem dan gaat het lichaam zich er helemaal op in stellen. Vroeg of laat wordt het rendement van je training steeds minder (wet van de verminderde spieropbrengst) Daarom kun je o.a. met het shock principe deze gewenning doorbreken. Je kunt daar verschillende technieken of methoden voor gebruiken waar je langere tijd niet mee getraind hebt. De contrastmethode is daar bruikbaar voor je gaat dan licht naar zwaar en dan weer terug naar licht en afsluitend met een zware set.
  
-### Forced reps:
+### Forced reps
  Dit is naar mijn gevoel de meest misbruikte techniek die te vaak wordt toegepast door mensen die daar absoluut niet bij gebaat zijn. Forced reps wil zeggen dat je na een set tot uitputting op eigen kracht er nog een paar (1-2) extra herhalingen uitvoert met minimale hulp van een trainingspartner. In de praktijk zie ik elke dag weer mensen met gewichten trainen die gewoon te zwaar zijn. Ze zijn niet eens in staat om een paar herhalingen in een goede uitvoering op eigen krachten te maken. Vanaf de eerste herhaling staat de trainingspartner mee te helpen waardoor de essentie van effectief trainen verloren gaat. Forced reps is alleen bruikbaar voor mensen die langere tijd trainen en dan nog moet je het gedoseerd toepassen en zeker niet bij elke oefening en training,
  
 ### De Holistische aanpak in de weekplanning

@@ -16,20 +16,20 @@ categories: fitnesscentrumnoord
 10x € 48,-  
   
         
-## De Powerplate; een revolutie op trainingsgebied
+### De Powerplate; een revolutie op trainingsgebied
 
-### Wat is de Powerplate
+#### Wat is de Powerplate
  De Powerplate is een apparaat waarmee je kunt trainen door oefeningen te doen op de trilplaat statisch of dynamisch uitgevoerd volgens de principes van vibratietraining. Op een unieke manier wordt via onbewuste rek-reflexen getraind in een korte tijd maar met een hoge intensiteit en een maximaal rendement.
 
-### Hoe werkt vibratietraining?
+#### Hoe werkt vibratietraining?
  De Powerplate zorgt voor krachtige trillingen die als energie op ons lichaam worden overgedragen. Deze mechanische prikkel geeft een rek-reflex die afhankelijk van de ingestelde frequentie, 30 tot 60 maal per seconde plaatsvindt. Het gevolg hiervan is dat de spieren continu zeer hard aanspannen. Door deze prikkelingen worden spieren gestimuleerd tot aanpassing, door rust herstellen ze, door regelmatige herhaling past het lichaam zich aan, 
  met als gevolg dat het prestatievermogen stijgt.
    
-### Wat zijn de effecten
+#### Wat zijn de effecten
  
 Via de rek-reflexen worden 100% van de spiervezels aangesproken waardoor met name de explosieve spierkracht toeneemt. Toename van de mobiliteit. (beweeglijkheid) Verhoogde uitscheiding van hormonen die o.a. belangrijk zijn voor herstel- en opbouwprocessen, vetverbranding en voor een gevoel van welbehagen. Forse verbetering van de doorbloeding. (capillarisatie en lymfedrainage) Versterking van het botweefsel, verbetering van de kwaliteit van het kraakbeen.
 
-### Pijndemping
+#### Pijndemping
  
  In diverse onderzoeken is verder aangetoond dat:
 
@@ -38,12 +38,12 @@ Via de rek-reflexen worden 100% van de spiervezels aangesproken waardoor met nam
 - pezen, fascie en bindweefsel gemanipuleerd worden door de met kleine onderbrekingen uitgevoerde rekkingen, zodat verklevingen loskomen. (peesirritaties, spierscheurtjes en arthrogene beperkingen) 
 - preventieve werking m.b.t. klachten aan het bewegingsapparaat.
  
-### Voor wie is de Powerplate geschikt
+#### Voor wie is de Powerplate geschikt
  
 Voor ouderen, kinderen vanaf 12 jaar, topsporters, mensen met gezondheidsproblemen en revalidatie klanten. Ook biedt deze methode een aantal cosmetische effecten zoals anti-cellulitus, collageenverbetering en vetreductie. De powerplate wordt door topsporters vooral gebruikt vanwege de spectaculaire toename van de explosieve kracht en het herstelvermogen.
  
  
-### Voor wie is de Powerplate niet geschikt!
+#### Voor wie is de Powerplate niet geschikt!
  
 - Bij zwangerschap
 - Pacemaker

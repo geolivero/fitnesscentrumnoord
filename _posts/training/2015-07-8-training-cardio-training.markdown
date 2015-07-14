@@ -8,8 +8,6 @@ thumbimg: /images/fitnessnoord/fitnessnoord_1.jpg
 headlineimg: /images/fitnessnoord/fitnessnoord_1.jpg
 categories: training
 ---
-## Cardio training 
-
 ### Wat is cardio training?
 
 Het algehele uithoudingsvermogen wordt bepaald door het functioneren van hart en longen. Wanneer er meerdere spiergroepen tegelijkertijd actief zijn wordt er aanspraak gemaakt op hart en longen.

@@ -25,7 +25,7 @@ De wervelkolom is de belangrijkste steunpilaar van het lichaam.
  
  Veel mensen met "gewrichtsslijtage hebben overigens baat bij het slikken van glucosamine, eventueel in combinatie met chondroïtinesulfaat. Deze voedingssupplementen bevatten bestanddelen die de aanmaak van nieuw kraakbeen stimuleren en die bestaand kraakbeen onderhouden. De tussenwervelschijven kunnen op die manier in dikte en veerkracht toenemen en de pijnklachten verdwijnen. Diverse studies tonen de effectiviteit aan van deze supplementen.
  
- ## Ik heb veel pijn wat moet ik doen?
+## Ik heb veel pijn wat moet ik doen?
  Bij 85 procent van de rugklachten is het duidelijk dat iemand last heeft, maar kan de arts geen mechanische oorzaak vinden. De deur platlopen bij de specialist is niet zinvol, soms leidt dit tot een ingrijpende maar onbevredigende operatie. Wat wel zinvol is om door een goede manuele therapeut storingen in het gebied van de wervelkolom te behandelen en daarna aan de slag te gaan met een leveringsprogramma om het functioneren van de spieren te verbeteren. Het is duidelijk dat veel verantwoord bewegen de rug in conditie moet houden. Zelfs bij de beruchte hernia hoef je geen bedrust meer te houden.
  
  Een onderzoek dat in 1999 werd gepubliceerd liet zien dat zeventig procent van de patiënten er na twee weken bewegen er beter aan toe is dan de patiënten die in bed moesten blijven liggen. Net als bij veel andere westerse kwalen is bewegen het advies.

@@ -113,6 +113,7 @@ De invloed van je voedingspatroon op je prestaties
  Sporttoeslag     
  Arbeidstoeslag     
  Sportieve arbeidstoeslag    +
+
  -----------------------------------------------
  Energiebehoefte     
  
@@ -156,7 +157,8 @@ De invloed van je voedingspatroon op je prestaties
  
  Stel dat je vijf keer per week op intensief niveau traint dan is je sportieve arbeidstoeslag dus 500 kcal
  
- De totale energiebehoefte
+ De totale energiebehoefte:  
+ 
  Nu kunnen we alles bij elkaar optellen en hebben we de totale energiebehoefte per dag.
  
 ## Hoe nu verder?
