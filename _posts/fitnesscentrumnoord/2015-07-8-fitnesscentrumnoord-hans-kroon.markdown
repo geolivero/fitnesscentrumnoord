@@ -3,9 +3,9 @@ layout: post
 title:  "Hans Kroon"
 date:   2015-07-08 10:43:45
 permalink: /fitnesscentrum-noord/hans-kroon
-tagline: Naast natural bodybuilders begeleidt hij ook topsporters.
-thumbimg: /images/hanskroon/hanskroon_2.jpg
-headlineimg: /images/hanskroon/hanskroon_2.jpg
+tagline: .
+thumbimg: /images/hanskroon/hanskroon_7.jpg
+headlineimg: /images/hanskroon/hanskroon_7.jpg
 categories: fitnesscentrumnoord
 ---
 ### Wie is Hans Kroon? 
