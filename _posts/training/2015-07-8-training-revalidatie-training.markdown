@@ -23,12 +23,11 @@ De wervelkolom is de belangrijkste steunpilaar van het lichaam.
  
  Mensen schrikken zich vaak rot als de specialist zegt dat hun wervels versleten zijn. De angst om dan nog te trainen of te bewegen is heel groot en uit "voorzorg" gaan ze nog voorzichtiger doen. Dat is niet nodig en werkt averechts het woord slijtage is eigenlijk ongelukkig gekozen. Het hele lichamelijke systeem waaronder ook de wervelkolom reageert op prikkels en zal daardoor altijd weer sterker of van functie verbeteren zolang je het maar blijft stimuleren. De wervels veranderen wel in de loop der jaren. Wat bij de zogenaamde slijtage gebeurd is dat de tussenwervelschijf een beetje inzakt, de veerkracht neemt af. De tussenwervelschijf heeft een aantal elastische eigenschappen en is daardoor vervormbaar en hij werkt als een soort schokbreker. Als in de loop der jaren uit de "gel " van de tussenwervelschijf het vocht minder wordt leidt dit tot veranderingen waardoor pijn kan ontstaan. (Zorg daarom dat je voldoende water drinkt)
  
- Veel mensen met "gewrichtsslijtage hebben overigens baat bij het slikken van glucosamine, eventueel in combinatie met chondroïtinesulfaat. Deze voedingssupplementen bevatten bestanddelen die de aanmaak van nieuw kraakbeen stimuleren en die bestaand kraakbeen onderhouden. De tussenwervelschijven kunnen op die manier in dikte en veerkracht toenemen en de pijnklachten verdwijnen. Diverse studies tonen de effectiviteit aan van deze supplementen.
  
 ## Ik heb veel pijn wat moet ik doen?
- Bij 85 procent van de rugklachten is het duidelijk dat iemand last heeft, maar kan de arts geen mechanische oorzaak vinden. De deur platlopen bij de specialist is niet zinvol, soms leidt dit tot een ingrijpende maar onbevredigende operatie. Wat wel zinvol is om door een goede manuele therapeut storingen in het gebied van de wervelkolom te behandelen en daarna aan de slag te gaan met een leveringsprogramma om het functioneren van de spieren te verbeteren. Het is duidelijk dat veel verantwoord bewegen de rug in conditie moet houden. Zelfs bij de beruchte hernia hoef je geen bedrust meer te houden.
+ Bij 85 procent van de rugklachten is het duidelijk dat iemand last heeft, maar kan de arts geen mechanische oorzaak vinden. De deur platlopen bij de specialist is niet zinvol, soms leidt dit tot een ingrijpende maar onbevredigende operatie. Wat wel zinvol is om door een goede manuele therapeut storingen in het gebied van de wervelkolom te laten behandelen en daarna aan de slag te gaan met een programma om het functioneren van de spieren te verbeteren. Het is duidelijk dat veel verantwoord bewegen de rug in conditie moet houden. Zelfs bij de beruchte hernia hoef je geen bedrust meer te houden.
  
- Een onderzoek dat in 1999 werd gepubliceerd liet zien dat zeventig procent van de patiënten er na twee weken bewegen er beter aan toe is dan de patiënten die in bed moesten blijven liggen. Net als bij veel andere westerse kwalen is bewegen het advies.
+ Een onderzoek dat in 1999 werd gepubliceerd liet zien dat 70 procent van de patiënten er na twee weken bewegen er beter aan toe is dan de patiënten die in bed moesten blijven liggen. Net als bij veel andere westerse kwalen is bewegen het advies.
  
 ## Revalidatie-training
  
@@ -36,4 +35,4 @@ De wervelkolom is de belangrijkste steunpilaar van het lichaam.
  
  In de meeste ziekenhuizen en fysiotherapiecentra ontbreken de tijd en mogelijkheden om dit proces optimaal te laten verlopen. Wij kunnen daarin wel die belangrijke bijdrage leveren.
  
- Wij hebben veel ervaring in de revalidatie na meniscus operaties, bandletsels bij knieën en schouders en botbreuken.
+ Wij hebben veel ervaring in de revalidatie na meniscus operaties, bandletsels bij knieën, schouders, botbreuken, rugklachten, spierblessures etc.
