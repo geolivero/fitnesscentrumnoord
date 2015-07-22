@@ -17,6 +17,8 @@ categories: verstandengevoel
  
  Alle staande oefeningen zoals, kniebuigen, lunges, staande miltary press, barbell curl etc. laten de houdingsspieren keihard werken om de rug te stabiliseren (goede houding te handhaven).
  
- In de meeste sportscholen zie je mensen eindeloos befaamde isolatieoefeningen doen zoals, sit-ups, crunches leg-raises, knee-ups etc. om een plat buikje te krijgen. Zo werkt het helaas niet, veel mensen denken nog steeds dat ze een oefening in de buik moeten voelen om daar af te vallen.
+ In de meeste sportscholen zie je mensen eindeloos befaamde isolatieoefeningen doen zoals, sit-ups, crunches leg-raises, knee-ups etc. om een plat buikje te krijgen. Zo werkt het helaas niet, veel mensen denken nog steeds dat ze een oefening in de buik moeten voelen om daar af te vallen. Daarnaast zijn dit soort oefeningen schadelijk voor de wervelkolom en zouden eigenlijk vermeden moeten worden. Daarvoor in de plaats zijn er talloze functionele varianten. 
  
 Door buikspieroefeningen verlies je geen vet. Je zorgt alleen dat de spieren beter getraind worden waardoor het strakker toont en aanvoelt. Je verandert echter niks aan de laag onderhuids vetweefsel die er overheen ligt. Je kunt nooit door bepaalde spierverstevigende oefeningen plaatselijk de vetverbranding stimuleren. De combinatie tussen fitness- en cardiotraining ondersteund door een aangepast voedingspatroon is de meest effectieve methode om strakker te worden.
+
+

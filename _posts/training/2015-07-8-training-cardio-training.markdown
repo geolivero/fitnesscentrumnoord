@@ -13,7 +13,7 @@ categories: training
 Het algehele uithoudingsvermogen wordt bepaald door het functioneren van hart en longen. Wanneer er meerdere spiergroepen tegelijkertijd actief zijn wordt er aanspraak gemaakt op hart en longen.
 
 Als zo'n 1/6e of meer van de spiermassa actief is (meestal de benen) zal er een aanspraak gedaan worden op het cardiorespiratoir (m.b.t. hart en longen) en cardiovasculair systeem (m.b.t. hart en bloedvaten).
-Om te kunnen presteren moeten deze systemen er voor zorgen dat er voldoende zuurstofrijk bloed naar de spieren aangevoerd wordt. Je kunt alle mogelijke vormen van het uithoudingsvermogen trainen, specifiek de conditie van hart, bloedvaten en longen, met behulp van computer gestuurde fietsen, crosstrainers, steppers, roeimachine, Top XT, spinning bikes, total body trainers en loopband. Er kan ook gebruik worden gemaakt van hartslagmeters. We hebben een aparte etage gebouwd waar al deze toestellen bij elkaar verzameld staan, je kunt hier vandaan in de fitnessruimte kijken tijdens je cardiotraining.
+Om te kunnen presteren moeten deze systemen er voor zorgen dat er voldoende zuurstofrijk bloed naar de spieren aangevoerd wordt. Je kunt alle mogelijke vormen van het uithoudingsvermogen trainen, specifiek de conditie van hart, bloedvaten en longen, met behulp van computer gestuurde fietsen, crosstrainers, steppers, totall body trainers, roeimachine, Top XT, spinning bikes en loopband. Er kan ook gebruik worden gemaakt van hartslagmeters. We hebben een aparte etage gebouwd waar al deze toestellen bij elkaar verzameld staan, je kunt hier vandaan in de fitnessruimte kijken tijdens je cardiotraining.
 
 ### Wat is het beste moment om je cardio-training doen?
 
@@ -40,14 +40,3 @@ Roeien is doordat de spieren van onder- en bovenlichaam tegelijk moeten werken e
 Steppen is een favoriete manier van training bij vele mensen. Je kunt de intensiteit vergroten door grotere stappen te maken in een hoger tempo. Ook moet je proberen rechtop te blijven (niet gaan hangen) en zo min mogelijk met je armen te steunen op de machine. Nog zwaarder is het om gewoon je armen mee te bewegen net als bij het lopen.
  
 Top XT is een toestel waarbij de beweging die je maakt lijkt op fietsen, maar dan met je armen. Het is een intensieve manier van conditietraining met m.g.v. de spieren van het bovenlichaam. Als je een blessure aan het onderlichaam hebt kun je met de Top XT toch je cardiotraining doen. Ook is de Top XT perfect te gebruiken als warming-up voor het bovenlichaam, of als specifiek toestel voor de training van het uithoudingsvermogen. Als laatste kun je dit toestel gewoon gebruiken voor de afwisseling in je cardiotraining.
-
-### Wedstrijdbeweging verzwaren?
- 
- Is het een goed idee om simpelweg je wedstrijdbeweging uit te voeren met een zwaarder gewicht?
- 
- Met een hele lichte verhoging zou je tijdelijk nog iets kunnen bereiken maar al snel krijg je te maken met een geheel ander bewegingspatroon, coördinatie en snelheid dan je wedstrijdtechniek, wat de hele techniek kan verstoren. 
- Een oefening voor spierketens gekoppeld aan een oefening met de specifieke wedstrijdbeweging met een lichte verzwaring kan wel functioneel zijn.
- 
- Je kunt op deze manier heel veel spiervezels aanspreken, door de oefening vooraf raakt de fijne motoriek verstoord waardoor het heel veel concentratie vergt om de specifieke sportbeweging nog perfect uit te voeren. Je voegt op die manier de typerende en vereist coördinatie van de sport toe.
- 
- Als krachttrainer moet je eigenlijk altijd op zoek blijven en openstaan voor nieuwe invalshoeken zodat je nog betere oefeningen en methoden kunt bedenken om de gewenste doelen te bereiken. Ook moet je niet vergeten dat de krachttraining op zich geen doel moet worden maar het moet altijd een voorwaarden scheppende training zijn, om zo optimaal mogelijk in je eigen tak van sport te kunnen functioneren.
