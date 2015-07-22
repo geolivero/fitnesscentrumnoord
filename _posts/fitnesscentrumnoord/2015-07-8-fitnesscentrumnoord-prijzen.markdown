@@ -2,7 +2,7 @@
 layout: post
 title:  "Prijzen"
 date:   2015-07-08 10:43:45
-permalink: /fitnesscentrumnoord/prijzen
+permalink: /fitnesscentrum-noord/prijzen
 tagline: Naast natural bodybuilders begeleidt hij ook topsporters.
 headlineimg: /images/fitnessnoord/fitnessnoord_6.jpg
 categories: fitnesscentrumnoord

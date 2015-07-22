@@ -2,7 +2,7 @@
 layout: post
 title:  "Hans Kroon"
 date:   2015-07-08 10:43:45
-permalink: /fitnesscentrumnoord/hans-kroon
+permalink: /fitnesscentrum-noord/hans-kroon
 tagline: Naast natural bodybuilders begeleidt hij ook topsporters.
 thumbimg: /images/hanskroon/hanskroon_2.jpg
 headlineimg: /images/hanskroon/hanskroon_2.jpg

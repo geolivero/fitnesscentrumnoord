@@ -50,6 +50,20 @@
     height: 50%;
   }
 
+  .highlight__2 {
+    position: relative;
+    &:before {
+      content: ''; display: block;
+      width: 100%; height: 100%;
+      background: rgba($color__c, 0.5);
+      position: absolute; left: 0; top: 0; right: 0;
+      bottom: 0;
+    }
+    .center {
+      position: relative;
+    }
+  }
+
   .etalage {
     height: 60%;
   }

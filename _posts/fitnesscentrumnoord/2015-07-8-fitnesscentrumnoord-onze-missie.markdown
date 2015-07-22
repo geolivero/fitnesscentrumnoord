@@ -2,7 +2,7 @@
 layout: post
 title:  "Onze missie"
 date:   2015-07-08 10:43:45
-permalink: /fitnesscentrumnoord/onze-missie
+permalink: /fitnesscentrum-noord/onze-missie
 tagline: We beperken ons tot de essentie van het trainen met resultaat, door simpelweg aan de slag te gaan.
 thumbimg: /images/hanskroon/hanskroon_1.jpg
 headlineimg: /images/hanskroon/hanskroon_1.jpg
