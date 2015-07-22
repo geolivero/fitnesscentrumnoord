@@ -8,6 +8,7 @@ thumbimg: /images/training/training_6.jpg
 headlineimg: images/training/training_6.jpg
 categories: fitnesscentrumnoord
 video: training_3
+kaart: true
 ---
 ## Ons adres:  
 
