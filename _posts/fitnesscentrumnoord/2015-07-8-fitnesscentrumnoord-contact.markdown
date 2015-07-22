@@ -2,7 +2,7 @@
 layout: post
 title:  "Contact"
 date:   2015-07-08 10:43:45
-permalink: /fitnesscentrumnoord/contact
+permalink: /fitnesscentrum-noord/contact
 tagline: Waar kun je ons vinden?
 thumbimg: /images/training/training_6.jpg
 headlineimg: images/training/training_6.jpg

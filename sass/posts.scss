@@ -53,6 +53,7 @@ div.post-content {
 
   h1, h2, h3, h4, h5 {
     padding-bottom: 20px;
+    line-height: 1.4em; color: $color__h;
   }
 
   h1 {
@@ -78,6 +79,11 @@ div.post-content {
     margin-left: 10px; padding-left: 10px;
     list-style-type: disc;
     padding-bottom: 20px;
+  }
+
+  li {
+    padding-bottom: 5px;
+    line-height: 1.4em;
   }
 
   ol {

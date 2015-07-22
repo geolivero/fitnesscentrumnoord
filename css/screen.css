@@ -520,18 +520,39 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   height: 50%;
 }
 /* line 53, ../sass/home.scss */
+.homepage__panel .highlight__2 {
+  position: relative;
+}
+/* line 55, ../sass/home.scss */
+.homepage__panel .highlight__2:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 46, 72, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+/* line 62, ../sass/home.scss */
+.homepage__panel .highlight__2 .center {
+  position: relative;
+}
+/* line 67, ../sass/home.scss */
 .homepage__panel .etalage {
   height: 60%;
 }
 @media all and (max-width: 700px) {
-  /* line 58, ../sass/home.scss */
+  /* line 72, ../sass/home.scss */
   .homepage__panel .rows, .homepage__panel .colls, .homepage__panel .coll, .homepage__panel .coll.right, .homepage__panel .coll.left, .homepage__panel .coll.left .coll {
     height: auto;
     width: 100%;
   }
 }
 
-/* line 65, ../sass/home.scss */
+/* line 79, ../sass/home.scss */
 .coll.right .highlight__1 .center, .coll.right .highlight__2 .center {
   position: relative;
   top: 50%;
@@ -541,7 +562,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   transform: translateY(-50%);
 }
 @media all and (max-width: 700px) {
-  /* line 65, ../sass/home.scss */
+  /* line 79, ../sass/home.scss */
   .coll.right .highlight__1 .center, .coll.right .highlight__2 .center {
     font-size: 70%;
     -moz-transform: translateY(0);
@@ -549,13 +570,13 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-  /* line 72, ../sass/home.scss */
+  /* line 86, ../sass/home.scss */
   .coll.right .highlight__1 .center .btn, .coll.right .highlight__2 .center .btn {
     font-size: 130%;
   }
 }
 
-/* line 79, ../sass/home.scss */
+/* line 93, ../sass/home.scss */
 .coll.right .highlight__1 {
   text-align: center;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzViYTZkYSIgc3RvcC1vcGFjaXR5PSIwLjQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -566,14 +587,14 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   background-image: linear-gradient(to top right, #ffffff 50%, rgba(91, 166, 218, 0.4) 50%);
   padding: 20px;
 }
-/* line 87, ../sass/home.scss */
+/* line 101, ../sass/home.scss */
 .coll.right .highlight__1 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   font-size: 180%;
   line-height: 1.1em;
 }
-/* line 91, ../sass/home.scss */
+/* line 105, ../sass/home.scss */
 .coll.right .highlight__1 h2 {
   color: #5BA4DC;
   font-family: 'Open Sans', sans-serif;
@@ -582,7 +603,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   font-size: 300%;
 }
 
-/* line 98, ../sass/home.scss */
+/* line 112, ../sass/home.scss */
 .coll.right .highlight__2 {
   background: url(../images/layout/impressie_bg.png) no-repeat center center;
   -moz-background-size: cover;
@@ -592,18 +613,18 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   padding: 20px;
   text-align: center;
 }
-/* line 102, ../sass/home.scss */
+/* line 116, ../sass/home.scss */
 .coll.right .highlight__2 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   padding-bottom: 20px;
   font-size: 200%;
 }
-/* line 106, ../sass/home.scss */
+/* line 120, ../sass/home.scss */
 .coll.right .highlight__2 * {
   color: #FFF;
 }
-/* line 110, ../sass/home.scss */
+/* line 124, ../sass/home.scss */
 .coll.right .highlight__2 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -611,7 +632,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   padding-bottom: 5px;
 }
 
-/* line 119, ../sass/home.scss */
+/* line 133, ../sass/home.scss */
 .etalage {
   background: url(../images/layout/homepage_sport.png) no-repeat 0 0;
   -moz-background-size: cover;
@@ -620,11 +641,11 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   background-size: cover;
   text-align: center;
 }
-/* line 123, ../sass/home.scss */
+/* line 137, ../sass/home.scss */
 .etalage * {
   color: #FFF;
 }
-/* line 126, ../sass/home.scss */
+/* line 140, ../sass/home.scss */
 .etalage .center {
   position: relative;
   top: 50%;
@@ -635,7 +656,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   padding: 20px 30px;
 }
 @media all and (max-width: 700px) {
-  /* line 126, ../sass/home.scss */
+  /* line 140, ../sass/home.scss */
   .etalage .center {
     font-size: 70%;
     -moz-transform: translateY(0);
@@ -643,12 +664,12 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
-  /* line 133, ../sass/home.scss */
+  /* line 147, ../sass/home.scss */
   .etalage .center .btn {
     font-size: 130%;
   }
 }
-/* line 138, ../sass/home.scss */
+/* line 152, ../sass/home.scss */
 .etalage h1 {
   font-size: 280%;
   font-family: 'Open Sans', sans-serif;
@@ -657,7 +678,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   letter-spacing: -0.03em;
   text-align: center;
 }
-/* line 141, ../sass/home.scss */
+/* line 155, ../sass/home.scss */
 .etalage h1:after {
   content: '';
   display: block;
@@ -665,7 +686,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   width: 40%;
   margin: 20px auto 0 auto;
 }
-/* line 148, ../sass/home.scss */
+/* line 162, ../sass/home.scss */
 .etalage h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -673,7 +694,7 @@ header.main__header.show .menu__btn span.hamb_icon span.st_3 {
   text-align: center;
   font-size: 200%;
 }
-/* line 153, ../sass/home.scss */
+/* line 167, ../sass/home.scss */
 .etalage p {
   font-size: 130%;
   text-align: center;
@@ -874,44 +895,51 @@ div.post-content {
 /* line 54, ../sass/posts.scss */
 div.post-content h1, div.post-content h2, div.post-content h3, div.post-content h4, div.post-content h5 {
   padding-bottom: 20px;
+  line-height: 1.4em;
+  color: #5BA6DA;
 }
-/* line 58, ../sass/posts.scss */
+/* line 59, ../sass/posts.scss */
 div.post-content h1 {
   font-size: 250%;
 }
-/* line 61, ../sass/posts.scss */
+/* line 62, ../sass/posts.scss */
 div.post-content h2 {
   font-size: 220%;
 }
-/* line 64, ../sass/posts.scss */
+/* line 65, ../sass/posts.scss */
 div.post-content h3 {
   font-size: 200%;
 }
-/* line 67, ../sass/posts.scss */
+/* line 68, ../sass/posts.scss */
 div.post-content h4 {
   font-size: 180%;
 }
-/* line 70, ../sass/posts.scss */
+/* line 71, ../sass/posts.scss */
 div.post-content h5 {
   font-size: 150%;
 }
-/* line 73, ../sass/posts.scss */
+/* line 74, ../sass/posts.scss */
 div.post-content strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-/* line 77, ../sass/posts.scss */
+/* line 78, ../sass/posts.scss */
 div.post-content ul, div.post-content ol {
   margin-left: 10px;
   padding-left: 10px;
   list-style-type: disc;
   padding-bottom: 20px;
 }
-/* line 83, ../sass/posts.scss */
+/* line 84, ../sass/posts.scss */
+div.post-content li {
+  padding-bottom: 5px;
+  line-height: 1.4em;
+}
+/* line 89, ../sass/posts.scss */
 div.post-content ol {
   list-style-type: decimal;
 }
-/* line 87, ../sass/posts.scss */
+/* line 93, ../sass/posts.scss */
 div.post-content em {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
